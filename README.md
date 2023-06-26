@@ -1,4 +1,6 @@
-This is a test application for EDESK Interview
+## EDESK Development Task
+
+This is a test application for EDESK Development Task
 
 ## Getting Started
 
