@@ -1,0 +1,32 @@
+{
+  "name": "edesk_customer_detail",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^3.1.1",
+    "autoprefixer": "10.4.14",
+    "bootstrap": "^5.3.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "next": "13.4.7",
+    "postcss": "8.4.24",
+    "primereact": "^9.5.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.0",
+    "swr": "^2.2.0",
+    "table": "^6.8.1",
+    "tailwindcss": "3.3.2",
+    "yup": "^1.2.0"
+  }
+}

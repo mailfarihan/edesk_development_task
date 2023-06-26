@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "id": 8221,
+      "uid": "a15c1f1d-9e4e-4dc7-9c45-c04412fc5064",
+      "name": "Thomas Hardy",
+      "address": "89 Chicago pd.",
+      "state": "New York",
+      "city": "Portland",
+      "pin_code": "97219",
+      "country": "USA"
+      
+    },
+    {
+      "id": 8001,
+      "uid": "a15c1f1d-9e4e-4dc7-9c45-c04412fc5064",
+      "name": "Another User",
+      "address": "89 Chicago pd.",
+      "state": "New York",
+      "city": "Abeany",
+      "pin_code": "97219",
+      "country": "USA"
+      
+    },
+    {
+      "id": 8021,
+      "uid": "a15c1f1d-9e4e-4dc7-9c45-c04412fc5064",
+      "name": "Dogo Dogo",
+      "address": "Sutera Harbor",
+      "state": "Sabah",
+      "city": "Kota Kinabalu",
+      "pin_code": "97219",
+      "country": "Malaysia"
+    },
+    {
+      "id": 8021,
+      "uid": "a15c1f1d-9e4e-4dc7-9c45-c04412fc5064",
+      "name": "Eldren",
+      "address": "Port",
+      "state": "Sabah",
+      "city": "Sandakan",
+      "pin_code": "97219",
+      "country": "Malaysia"
+    },
+    {
+      "id": 8021,
+      "uid": "a15c1f1d-9e4e-4dc7-9c45-c04412fc5064",
+      "name": "Farihan",
+      "address": "Sutera Harbor",
+      "state": "Labuan",
+      "city": "Labuan",
+      "pin_code": "97219",
+      "country": "Malaysia"
+    }
+  ]
+}

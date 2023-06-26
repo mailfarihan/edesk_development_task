@@ -1,0 +1,68 @@
+{
+  "name": "Country",
+  "items":[
+    {
+      "name": "USA",
+      "isFolder" : true,
+      "items":[
+        {
+          "name": "Missouri",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Elmer"
+            },
+            {
+              "name":"Columbia"
+            }
+          ]
+        },
+        {
+          "name": "Alabama",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Alexander City"
+            }
+          ]
+        },
+        {
+          "name": "Oregon",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Portland"
+            }
+          ]
+        },
+        {
+          "name": "Michigan",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Northville"
+            }
+          ]
+        },
+        {
+          "name": "West Virginia",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Gormania"
+            }
+          ]
+        },
+        {
+          "name": "North Carolina",
+          "isFolder": true,
+          "items":[
+            {
+              "name":"Greensboro"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

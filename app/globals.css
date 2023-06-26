@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.nav-link.active{
+  @apply font-bold bg-slate-200 border text-gray-800 
+}
+
+.nav-link.active::after{
+  @apply bg-slate-200
+}
+
+.nav-link.active::after{
+  top: 0px;
+  display: block;
+  position: absolute;
+  content: '';
+  right: -5px;
+  width: 5px;
+  height: 2.5rem;
+}
+
+
+.just-padding {
+  padding: 15px;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root .list-group .list-group .list-group-item {
+  padding-left: 45px;
+}
+
+.list-group.list-group-root .list-group .list-group .list-group .list-group-item {
+  padding-left: 75px;
+}
+
+.list-group-item .glyphicon {
+  margin-right: 5px;
+}
